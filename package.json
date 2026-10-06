@@ -1,0 +1,20 @@
+{
+  "name": "snaplog",
+  "version": "1.0.0",
+  "description": "A tiny terminal work logger for quick daily and weekly summaries.",
+  "bin": {
+    "snap": "./snap.js"
+  },
+  "main": "snap.js",
+  "scripts": {
+    "start": "node snap.js",
+    "test": "node snap.js today"
+  },
+  "keywords": [
+    "cli",
+    "productivity",
+    "logging",
+    "terminal"
+  ],
+  "license": "MIT"
+}
